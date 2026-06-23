@@ -1,0 +1,123 @@
+/* VoidRP Launcher - Dark Theme */
+
+.root {
+    -fx-font-family: "Segoe UI", "Inter", "Ubuntu", sans-serif;
+    -fx-base: #0f1117;
+    -fx-background: #0f1117;
+    -fx-control-inner-background: #16191f;
+    -fx-text-fill: #e5e7eb;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar {
+    -fx-background-color: #0f1117;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #374151;
+    -fx-background-radius: 4;
+}
+
+.scroll-bar .track {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 2;
+}
+
+.separator .line {
+    -fx-border-color: #1f2937;
+    -fx-border-width: 1 0 0 0;
+}
+
+.check-box .box {
+    -fx-background-color: #374151;
+    -fx-background-radius: 4;
+    -fx-border-color: #4b5563;
+    -fx-border-radius: 4;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #7c3aed;
+    -fx-border-color: #7c3aed;
+}
+
+.check-box .mark {
+    -fx-background-color: white;
+}
+
+.slider .track {
+    -fx-background-color: #374151;
+    -fx-background-radius: 4;
+}
+
+.slider .thumb {
+    -fx-background-color: #7c3aed;
+    -fx-background-radius: 50%;
+}
+
+.radio-button .radio {
+    -fx-border-color: #4b5563;
+    -fx-background-color: #16191f;
+}
+
+.radio-button:selected .radio {
+    -fx-border-color: #7c3aed;
+}
+
+.radio-button:selected .dot {
+    -fx-background-color: #7c3aed;
+}
+
+.tooltip {
+    -fx-background-color: #1f2937;
+    -fx-text-fill: #e5e7eb;
+    -fx-font-size: 12px;
+    -fx-background-radius: 4;
+    -fx-border-color: #374151;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #0f1117;
+    -fx-text-fill: #e5e7eb;
+    -fx-prompt-text-fill: #4b5563;
+    -fx-border-color: #374151;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #7c3aed;
+}
+
+.progress-bar .bar {
+    -fx-background-color: #7c3aed;
+    -fx-background-radius: 4;
+    -fx-padding: 0;
+}
+
+.progress-bar .track {
+    -fx-background-color: #1f2937;
+    -fx-background-radius: 4;
+}
+
+.hyperlink {
+    -fx-text-fill: #6b7280;
+    -fx-border-color: transparent;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #9ca3af;
+    -fx-border-color: transparent;
+}
