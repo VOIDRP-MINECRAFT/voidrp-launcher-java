@@ -1,6 +1,6 @@
-# ☕ VoidRP Launcher (Java)
+<p align="center"><img src=".github/assets/banner.jpg" alt="VoidRP Launcher (Java)" width="100%"></p>
 
-> Автономный Java-лаунчер VoidRP — единый fat JAR без внешних зависимостей.
+<div align="center">
 
 ![Java](https://img.shields.io/badge/Java-21-ED8B00?logo=openjdk&logoColor=white)
 ![JavaFX](https://img.shields.io/badge/JavaFX-21-0090D3)
@@ -8,6 +8,10 @@
 ![Build](https://img.shields.io/badge/build-Gradle_Shadow-02303A?logo=gradle)
 [![Build](https://github.com/VOIDRP-MINECRAFT/voidrp-launcher-java/actions/workflows/build.yml/badge.svg)](https://github.com/VOIDRP-MINECRAFT/voidrp-launcher-java/actions/workflows/build.yml)
 ![License](https://img.shields.io/badge/license-proprietary-red)
+
+</div>
+
+> Автономный Java-лаунчер VoidRP — единый fat JAR без внешних зависимостей.
 
 ---
 
