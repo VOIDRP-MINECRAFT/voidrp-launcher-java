@@ -37,6 +37,13 @@ application {
     mainClass = 'ru.voidrp.launcher.Main'
 }
 
+// The fat JAR takes the plain name (voidrp-launcher-<version>.jar), so the thin one gets a
+// classifier: two tasks writing one file is an error for the application plugin's
+// startScripts/distZip/distTar since Gradle 8.
+jar {
+    archiveClassifier = 'plain'
+}
+
 shadowJar {
     archiveBaseName = 'voidrp-launcher'
     archiveClassifier = ''
