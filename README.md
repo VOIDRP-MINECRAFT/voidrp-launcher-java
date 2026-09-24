@@ -74,14 +74,15 @@ sequenceDiagram
 ## 🚀 Сборка и запуск
 
 ```bash
-cd voidrp_launcher_java
+cd voidrp-launcher-java
 
 # Сборка fat JAR
 ./gradlew shadowJar
-# → build/libs/voidrp-launcher-*.jar  (~56 MB)
+# → build/libs/voidrp-launcher-1.0.0.jar  (~56 MB, версия — из build.gradle)
+#   тонкий jar без зависимостей после ./gradlew build — voidrp-launcher-1.0.0-plain.jar
 
 # Запуск
-java -jar build/libs/voidrp-launcher-*.jar
+java -jar build/libs/voidrp-launcher-1.0.0.jar
 ```
 
 ---
